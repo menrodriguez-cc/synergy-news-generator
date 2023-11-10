@@ -1,5 +1,5 @@
 {
-  "author": "menrodriguez <menrodriguez@araba.eus>",
+  "author": "menrodriguez-cc",
   "name": "synergy-news-generator",
   "version": "1.0.0",
   "description": "",
@@ -9,8 +9,7 @@
     "> 5%"
   ],
   "bugs": {
-    "url": "https://github.com/menrodriguez-cc/synergy-news-generator/issues",
-    "email": "menrodriguez@araba.eus"
+    "url": "https://github.com/menrodriguez-cc/synergy-news-generator/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -49,7 +48,7 @@
   },
   "engines": {
     "node": ">=14"
-  },  
+  },
   "license": "MIT",
   "private": false,
   "repository": {
