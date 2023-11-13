@@ -1,6 +1,5 @@
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
+  "extends": ["airbnb"],
   "env": {
     "node": true,
     "jasmine": true,
