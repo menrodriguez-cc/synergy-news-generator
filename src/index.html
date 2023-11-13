@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -8,10 +8,60 @@
     <meta name="author" content="menrodriguez-cc" />
   </head>
   <body>
-    <header>
+    <main class="container">
       <h1>Synergy news HTML generator</h1>
-    </header>
-    <main></main>
+      <section class="formulario">
+        <form>
+          <label for="icono"
+            >Icono<select id="icono" required>
+              <option value="" selected>Icono 1</option>
+              <option value="" selected>Icono 2</option>
+              <option value="" selected>Icono 3</option>
+            </select></label
+          >
+          <label for="texto_castellano">
+            Texto castellano
+
+            <textarea
+              id="texto_castellano"
+              name="texto_castellano"
+              placeholder="Texto (ES)"
+              aria-label="Texto en castellano"
+              required
+            ></textarea>
+          </label>
+          <label for="texto_euskera">
+            Texto euskera
+            <textarea
+              id="texto_euskera"
+              name="texto_euskera"
+              placeholder="Texto (EU)"
+              aria-label="Texto en euskera"
+              required
+            ></textarea>
+          </label>
+
+          <label for="link">
+            Link
+            <input
+              type="url"
+              id="link"
+              name="link"
+              placeholder="Link"
+              required
+            />
+          </label>
+
+          <!-- Button -->
+          <button type="submit">Generar</button>
+        </form>
+      </section>
+      <section class="resultado">
+        <pre><code>
+          The CSS <code>background-color</code> property defines the background color of an element.
+        </code></pre>
+      </section>
+    </main>
     <footer>
       <address>
         <a
