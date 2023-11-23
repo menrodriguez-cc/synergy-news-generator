@@ -2,21 +2,24 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Webpack Boilerplate Starter Template</title>
+    <title>Synergy news HTML generator</title>
     <meta name="description" content="Synergy news html generator" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="menrodriguez-cc" />
   </head>
   <body>
     <main class="container">
-      <h1>Synergy news HTML generator</h1>
       <section class="formulario">
-        <form>
+        <form id="formulario" name="formulario">
           <label for="icono"
             >Icono<select id="icono" required>
-              <option value="" selected>Icono 1</option>
-              <option value="" selected>Icono 2</option>
-              <option value="" selected>Icono 3</option>
+              <option value="" ></option>
+              <option value="dev" >Dev</option>
+              <option value="cloud" >Cloud</option>
+              <option value="info" >Info</option>
+              <option value="movil" >Móvil</option>
+              <option value="sociedad" >Sociedad</option>
+              <option value="varios" >Varios</option>
             </select></label
           >
           <label for="texto_castellano">
@@ -57,20 +60,20 @@
         </form>
       </section>
       <section class="resultado">
-        <pre><code>
-          The CSS <code>background-color</code> property defines the background color of an element.
+        <pre class="language-html"><code id="resultado-code" name="resultado-code">          
         </code></pre>
       </section>
+      <section>
+        <address>
+          <a
+            href="https://github.com/menrodriguez-cc/synergy-news-generator"
+            target="_blank"
+            rel="noopener"
+            >Source code</a
+          >.
+        </address>
+      </section>
     </main>
-    <footer>
-      <address>
-        <a
-          href="https://github.com/menrodriguez-cc/synergy-news-generator"
-          target="_blank"
-          rel="noopener"
-          >Source code</a
-        >.
-      </address>
-    </footer>
+   
   </body>
 </html>
